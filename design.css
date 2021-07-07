@@ -1,0 +1,67 @@
+body{
+background-color:#202E3C;
+margin: auto;
+margin-top: 10%;
+}
+#main-box{
+    background-color: #4A9CF8;
+    height: 60vh;
+    border-radius: 3px;
+    position: inherit;
+    
+}
+#inner-box{
+    position: relative;
+    background-color: #FFFFFF;
+    margin:5%;
+    height: 75%;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+
+}
+#icon-row{
+    position: relative;
+}
+#quote-icon{
+    color:grey;
+    margin-top: 5%;
+}
+#tweeMe{
+    color: #1DA1F2;
+    position: absolute;
+    right: 0;
+    margin-top: 5%;
+}
+#tweeMe:hover {
+    opacity: 0.6;
+  }
+ #quote-row{
+      position: relative;
+  }
+#quotes{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    margin-top: 5%;
+    font-size: 5vmin;
+    
+}
+#author-row{
+    position: absolute;
+}
+#author{
+    bottom: 90px;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    font-size: 3vmin;
+}
+#newQ{
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 2%;   
+
+}
